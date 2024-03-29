@@ -9,6 +9,7 @@ namespace Project40.Entities
     public class Employee : IEntity
     {
         public int EmployeeId { get; set; }
+        
         public string EmployeeNameSurname { get; set; }
 
         public string EmployeePhoneNumber { get; set; }
